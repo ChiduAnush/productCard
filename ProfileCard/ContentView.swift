@@ -49,7 +49,12 @@ struct ContentView: View {
             .font(.body)
 
         }
-
+        .padding()
+        .background(Rectangle()
+            .foregroundColor(.white)
+            .cornerRadius(10)
+            .shadow(radius: 20))
+        .padding()
         
         
     }
